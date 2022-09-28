@@ -1,0 +1,35 @@
+body {
+    background-image: url("webb.png");
+    max-width: 800px;
+    margin:24px auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: cornflowerblue;
+}
+h2 {
+    color: gray
+}
+h3 {
+    color:orangered;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0 27px;
+}
+p {
+    color:grey;
+}
+img {
+    float: left;
+}
+aside {
+    display: flex;
+    flex-direction: row-reverse;
+}
+footer {
+    text-align: center;
+    color: gray;
+    margin-top: auto;
+}
